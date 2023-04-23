@@ -1,0 +1,187 @@
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bolder;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bolder;
+    font-size: 3rem;
+    line-height: 1.5; 
+    color: #fff;
+}
+h3
+{
+    font-family: "MONTSERRAT",sans-serif;
+    font-weight: bolder;
+}
+p{
+    color: #8f8f8f;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+/* navbar settings */
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.navbar-brand
+{
+    font-family: "Ububtu",sans-serif;
+    font-size: 2.5rem;font-weight: bold;
+  
+}
+
+.nav-item
+{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* DOWNLOAD BUTTONS */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+
+}
+
+.title-image{
+    width: 24%;
+    transform: rotate(25deg);
+    position: absolute;
+    /* right: 25% ; */
+   
+}
+
+
+/* FEATURES */
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    /* z-index: 1; */
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.icon{
+    color: #ef8172;
+margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+/* testtimonials */
+
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+ 
+ color: #fff;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+.testimonial-image
+{
+    border-radius:100%;
+    width:15% ;
+}
+
+
+/* press */
+
+
+#press
+{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+    text-align: center;
+    
+}
+
+.press-img
+{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* cards */
+
+#pricing{
+    padding: 10%;
+  text-align: center
+}
+
+.pricebtn{
+    width: 100%;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+
+/* contact deatails */
+#cta
+{   text-align: center;
+    background-color: #ff4c68;
+    font-family: 'montserrat', sans-serif;
+    font-weight: bolder;
+    color: #fff;
+    padding: 5%  ;
+}
+
+.h3class{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    
+}
+
+/* footer */
+
+#footer{
+    text-align: center;
+   padding: 7% 15%;
+}
+.link-icon{
+    margin: 7% 1%  1%;
+}
+
+.cpy{
+    margin-bottom: 5%;
+}
+
+@media (max-width:1028px)
+{
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        z-index: 0;
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+       /* margin: 0px 250px; */
+        }
+    
+}
